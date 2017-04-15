@@ -15,30 +15,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SUBTITLE TEXT, introduction here?"
+        android:text="Hold down finger to begin."
         android:id="@+id/subtitleTextMain" />
-
-
-    <Button
-        android:id="@+id/loadTutorial"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/subtitleTextMain"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="54dp"
-        android:onClick="startTutorial"
-        android:text="Load Tutorial" />
-
-    <Button
-        android:id="@+id/playBlackjack"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Play Blackjack!"
-        android:layout_below="@+id/loadTutorial"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="54dp"
-        android:onClick="startBlackjack"/>
 
 </RelativeLayout>
